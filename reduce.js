@@ -14,7 +14,7 @@ let sum = nums.reduce((acc,curr) => {
     "Total:", acc + curr
   );
   return acc + curr;
-});
+}, 10);
 console.log(sum);
 
 const teamMembers = [
